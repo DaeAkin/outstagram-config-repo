@@ -1,8 +1,4 @@
-server:
-  port: 13333
-  servlet:
-    session:
-      timeout: 86400s
+
 
 #ribbon:
 #  eureka:
@@ -20,6 +16,8 @@ server:
 #    serviceUrl:
 #      defaultZone: http://127.0.0.1:8761/eureka/
 
+server:
+  port: 13333
 spring:
   profiles: default
   servlet:
